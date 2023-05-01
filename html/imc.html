@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> healthy life </title>
+    <link rel="stylesheet" href="../css/saudável.css">
+    <link href="../imagens/icon1.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <h1 class="titulos">
+        IMC | Índice de Massa Corporal
+    </h1>
+
+    <p id="text">
+        —— é uma medida internacional usada para calcular se uma pessoa está no peso ideal.
+    </p>
+    <br>
+
+    <div class="bloco_principal">
+        <div class="div_dados">
+            <div class="image">
+                <img id="imc_img">
+                <p>IMC - <span id="res"></span></p>
+            </div>
+        </div>
+
+        <div class="div_form">
+            <p id="msg"></p>
+            <div class="main">
+                <div class="div_input">
+                    <input id="peso" placeholder="Peso" class="input">
+                </div>
+    
+                <div class="div_input">
+                    <input id="altura" placeholder="Altura" class="input">
+                </div>
+                
+                <div class="verificacao">
+                    <input name = "faixa_etaria" id = "faixa_etaria" type="radio" checked >Adulto
+                    <input name = "faixa_etaria" type="radio" >Idoso
+                </div>
+
+                <button type="button" onclick="calculo()">Calcular</button>
+
+            </div>
+        </div>
+    </div> 
+    
+
+
+
+
+
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
